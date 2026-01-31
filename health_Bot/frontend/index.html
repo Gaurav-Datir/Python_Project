@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HealthBot</title>
+
+    <!-- CSS FILE -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+<!-- CHAT APP CONTAINER -->
+<div class="chat-container">
+
+    <!-- HEADER -->
+    <div class="chat-header">
+        <h2>🩺 HealthBot</h2>
+        <p>Ask your health-related questions</p>
+    </div>
+
+    <!-- CHAT MESSAGES -->
+    <div class="chat-body" id="chatBody">
+
+        <!-- BOT WELCOME MESSAGE -->
+        <div class="message bot">
+            <img src="./assets/bot.png" class="avatar">
+            <div class="bubble">
+                Hello 👋 I'm HealthBot. How can I help you today?
+            </div>
+        </div>
+
+    </div>
+
+    <!-- INPUT AREA -->
+    <div class="chat-footer">
+        <input
+            type="text"
+            id="userInput"
+            placeholder="Type your health concern..."
+        >
+        <button id="sendBtn">Send</button>
+    </div>
+
+</div>
+
+<!-- JS FILE -->
+<script src="./js/chat.js"></script>
+
+</body>
+</html>
